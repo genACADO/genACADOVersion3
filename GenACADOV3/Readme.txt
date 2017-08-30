@@ -1,4 +1,4 @@
-Generalized ACADO V2
+Generalized ACADO version 3
  %genACADO solve Optimal control problem OCP
 %   genACADO attempts to solve problems of the form:
 %    min J  subject to:  
@@ -25,7 +25,9 @@ Toolkit for Automatic Control and Dynamic Optimization
 Sample training from the Linux Foundation's Linux training program.
 
 Installation:
-Once a compiler is installed it needs to be linked to MATLAB. Open MATLAB (a recent version of MATLAB is required) and run in command window:
+Once a compiler is installed it needs to be linked to MATLAB. Open MATLAB (a recent version of MATLAB is required) and run 
+
+in command window:
 
 >> mex -setup;
 
@@ -33,7 +35,7 @@ MATLAB returns:
 
 Please choose your compiler for building external interface (MEX) files:
 Would you like mex to locate installed compilers [y]/n?
-Type ìyî and hit enter.
+Type ‚Äúy‚Äù and hit enter.
 
 The options files available for mex are:
 
@@ -50,8 +52,10 @@ Enter the number of the compiler (0-2):
 Navigate to the genACADO directory and  run:
 
 cd interfaces/matlab/;
-You are now ready to compile the genACADO interface. This compilation will take several minutes but needs to be done only once. Run ìmakeî in your command window:
+You are now ready to compile the genACADO interface. This compilation will take several minutes but needs to be done only 
+
+once. Run ‚Äúmake‚Äù in your command window:
 
 make clean all;
 
-see interfaces/matlab/example
+see example
